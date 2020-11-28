@@ -13,7 +13,7 @@ function Cards() {
               src='images/img-9.jpg'
               text='Use our recipe finder to create your next great meal'
               label='Cook'
-              path='/services'
+              path='/cook'
             />
             <CardItem
               src='images/img-2.jpg'
