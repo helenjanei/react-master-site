@@ -1,0 +1,76 @@
+
+.contact_body {
+  display: table;
+  margin: 40px auto;
+  color: #fff;
+  font: 30px Helvetica;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.contact_form {
+  display: table;
+  margin: 40px auto;
+}
+
+.contact_input, .contact_textarea {
+    font: 18px Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    display: block;
+    border: none;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+    }
+
+.contact_input::placeholder,
+.contact_textarea::placeholder {
+   transition: all 0.2s ease-in-out;
+   color: #999;
+   font: 18px Helvetica,
+   Arial,
+   sans-serif;
+}
+.contact_input:focus,
+.contact_textarea:focus, .contact_input.populated,
+.contact_textarea.populated {
+  padding-top: 28px;
+  padding-bottom: 12px;
+
+}
+
+.contact_input:focus::placeholder,
+.contact_textarea:focus::placeholder,
+.contact_input.populated::placeholder,
+.contact_textarea.populated::placeholder {
+
+  color: transparent;
+}
+
+
+
+
+  .contact_textarea {
+    height: 200px;
+  }
+
+  .contact_button {
+    transition: all 0.2s ease-in-out;
+    font: 18px Helvetica, Arial, sans-serif;
+    border: none;
+    background: #1792E8;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.contact_button:hover {
+    background: #0e82d4;
+    cursor: pointer;
+}

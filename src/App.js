@@ -9,7 +9,7 @@ import ProjectVideo from './components/pages/ProjectVideo';
 import Recipe from './components/pages/recipe';
 import Book from './components/pages/Book';
 import About from './components/pages/About';
-
+import Contact from './components/pages/Contact';
 function App() {
   return (
     <>
@@ -23,6 +23,7 @@ function App() {
           <Route path='/recipefinder' component={Recipe} />
            <Route path='/bookfinder' component={Book} /> 
            <Route path='/about' component={About} />
+           <Route path='/contact' component={Contact} />
         </Switch>
       </Router>
     </>
