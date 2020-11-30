@@ -5,8 +5,10 @@ import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Cook from './components/pages/Cook';
 import Projects from './components/pages/Projects';
-import SignUp from './components/pages/SignUp';
+import ProjectVideo from './components/pages/ProjectVideo';
 import Recipe from './components/pages/recipe';
+import Book from './components/pages/Book';
+import About from './components/pages/About';
 
 function App() {
   return (
@@ -16,10 +18,11 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/cook' component={Cook} />
-          <Route path='/products' component={Projects} />
-          <Route path='/sign-up' component={SignUp} /> 
+          <Route path='/projects' component={Projects} />
+          <Route path='/projectvideo' component={ProjectVideo} /> 
           <Route path='/recipefinder' component={Recipe} />
-          
+           <Route path='/bookfinder' component={Book} /> 
+           <Route path='/about' component={About} />
         </Switch>
       </Router>
     </>
