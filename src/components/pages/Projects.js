@@ -17,6 +17,12 @@ export default function Projects() {
               label='Cook'
               path='/recipefinder'
             />
+           <CardItem
+              src='images/img-8.jpg'
+              text='Use our book finder to find your next great read'
+              label='Read'
+              path='/bookfinder'
+            />
           </ul>
         </div>
       </div>
