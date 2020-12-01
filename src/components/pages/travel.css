@@ -1,52 +1,120 @@
-
-.logo_container {
-display: flex;
-  min-height: 20vh;
-  justify-content: center;
-  align-items: center;
-
+.travel_picture {
+object-fit: cover;
+width: 100%;
+height: 100%;
+position: fixed;
+z-index: -1;
 }
 
-.travel_container {
-   display: flex;
-   height: 90vh;
-   align-items: center;
-   justify-content: center;
-   font-size: 3rem;
-   }
+.travelbuddy_h1_logo {
+  font-family: "Coiny",
+    cursive;
+  font-size: 10vh;
+  font-weight: 200;
+  line-height: 10vh;
+height: 50vh;
+  width: 40vh;
+  color: #002352;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+      border-radius: 25px;
+     padding: 20px;
+     width: 40vh;
+     height: 50vh;
+      
+}
 
+.travel_hero_container {
+   background-image: url('/images/img-5.jpg');
   
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.travel_hero_container_BE {
+  background-image: url('/images/img-6.jpg');
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+
+.travel_container {
+   height: 90vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+   object-fit: contain;
+   }
 
 .travel_buddy_logo {
 font-family: "Coiny",
 cursive;
-font-size: 30px;
+font-size: 15vh;
 font-weight: 200;
-line-height: 25px;
+line-height: 15vh;
 margin: 0;
 padding: 0;
 width: 100px;
 color: #002352;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-p > {
- padding: 50vh;
+p {
+ padding: 0.9vh;
+ margin: 0.9vh;
 }
 
 .travel_buddy_text {
-    margin-top: 8px;
-line-height: 30px;
-    font-family: 'Trebuchet MS',
-    'Lucida Sans Unicode',
-    'Lucida Grande',
-    'Lucida Sans',
-    Arial,
-    sans-serif;
-     padding: 5vh;
-    height: 10vh;
-    align-items: center;
-    justify-content: center;
+  
+   font-family: 'PT Sans',
+   sans-serif;
+  font-weight: normal;
+  font-size: 1.75em;
+  letter-spacing: .2em;
+  line-height: 1.1em;
+  margin:0px;
+  text-align: center;
+  
+height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+object-fit: contain;
+}
 
+.techstack_ul {
+  
+}
+.techstack_list {
+ padding: 0.1vh;
+      background-image: 'public/images/pin.svg';
 }
 
 @media screen and (max-width: 960px) {
