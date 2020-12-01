@@ -10,6 +10,10 @@ import Recipe from './components/pages/recipe';
 import Book from './components/pages/Book';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
+import Travel from './components/pages/Travel';
+
+
+
 function App() {
   return (
     <>
@@ -23,7 +27,8 @@ function App() {
           <Route path='/recipefinder' component={Recipe} />
            <Route path='/bookfinder' component={Book} /> 
            <Route path='/about' component={About} />
-           <Route path='/contact' component={Contact} />
+           <Route path='/contact' component={Contact} />  
+           <Route path='/travelbuddy' component={Travel} />
         </Switch>
       </Router>
     </>

@@ -22,7 +22,7 @@ const Contact = () => {
   }
   const sendEmail = () => {
     Axios.post(
-      'https://us-central1-your-app-name.cloudfunctions.net/submit',
+      'https://us-central1-mastersite-contact.cloudfunctions.net/submit',
       formData
     )
       .then(res => {
@@ -49,7 +49,7 @@ const Contact = () => {
           onChange={updateInput}
           value={formData.name || ''}
         />
-        <input
+        <input className='contact_input'
           type="email"
           name="email"
           placeholder="Email"

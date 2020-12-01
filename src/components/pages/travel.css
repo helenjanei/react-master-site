@@ -1,0 +1,68 @@
+
+.logo_container {
+display: flex;
+  min-height: 20vh;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.travel_container {
+   display: flex;
+   height: 90vh;
+   align-items: center;
+   justify-content: center;
+   font-size: 3rem;
+   }
+
+  
+
+.travel_buddy_logo {
+font-family: "Coiny",
+cursive;
+font-size: 30px;
+font-weight: 200;
+line-height: 25px;
+margin: 0;
+padding: 0;
+width: 100px;
+color: #002352;
+}
+
+p > {
+ padding: 50vh;
+}
+
+.travel_buddy_text {
+    margin-top: 8px;
+line-height: 30px;
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+     padding: 5vh;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 960px) {
+  .travel_container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .travel_container>h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .travel_container>p {
+    font-size: 30px;
+  }
+}
