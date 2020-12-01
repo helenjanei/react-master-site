@@ -40,7 +40,6 @@ const Contact = () => {
 
   return (
     <div className='contact_body'>
-        <i class='fas fa-brain' />
       <form className='contact_form' onSubmit={handleSubmit}>
         <input className='contact_input'
           type="text"
@@ -64,7 +63,7 @@ const Contact = () => {
           onChange={updateInput}
           value={formData.message || ''}
         ></textarea>
-        <button className='contact_button' type="submit">Submit</button>
+        <button className='contact_button' type="submit" >Submit</button>
       </form>
        <a
           className="App-link"

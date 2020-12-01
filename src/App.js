@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer'
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -11,8 +12,8 @@ import Book from './components/pages/Book';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Travel from './components/pages/Travel';
-
-
+import TravelbuddyFE from './components/pages/TravelbuddyFE';
+import TravelbuddyBE from './components/pages/TravelbuddyBE';
 
 function App() {
   return (
@@ -28,8 +29,11 @@ function App() {
            <Route path='/bookfinder' component={Book} /> 
            <Route path='/about' component={About} />
            <Route path='/contact' component={Contact} />  
-           <Route path='/travelbuddy' component={Travel} />
+           <Route path='/travelbuddy' component={Travel} /> 
+           <Route path='/travelbuddyfrontend' component={TravelbuddyFE} /> 
+           <Route path='/travelbuddybackend' component={TravelbuddyBE} />
         </Switch>
+        <Footer />
       </Router>
     </>
   );
