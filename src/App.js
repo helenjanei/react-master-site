@@ -15,6 +15,7 @@ import Travel from './components/pages/Travel';
 import TravelbuddyFE from './components/pages/TravelbuddyFE';
 import TravelbuddyBE from './components/pages/TravelbuddyBE';
 
+
 function App() {
   return (
     <>
@@ -31,7 +32,8 @@ function App() {
            <Route path='/contact' component={Contact} />  
            <Route path='/travelbuddy' component={Travel} /> 
            <Route path='/travelbuddyfrontend' component={TravelbuddyFE} /> 
-           <Route path='/travelbuddybackend' component={TravelbuddyBE} />
+           <Route path='/travelbuddybackend' component={TravelbuddyBE} />       
+        
         </Switch>
         <Footer />
       </Router>
