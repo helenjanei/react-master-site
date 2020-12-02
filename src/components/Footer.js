@@ -8,27 +8,26 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Using creativity to solve modern day problems
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+         Like what you see? 
         </p>
         <div className='input-areas'>
           <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+           <Link
+                to='/contact'
+                             
+              >
+            <Button buttonStyle='btn--outline'>Contact Me</Button>
+            </Link>
           </form>
         </div>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Us</h2>
+            <h2>About Me</h2>
             <Link to='/sign-up'>How it works</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
@@ -36,7 +35,7 @@ function Footer() {
             <Link to='/'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Contact Us</h2>
+            <h2>Collaboration</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
             <Link to='/'>Destinations</Link>
@@ -64,11 +63,13 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
-              <i class='fab fa-typo3' />
+              Helen Ingham
+              <span className='lightbulb'>
+              <i class='fas fa-lightbulb' />
+              </span>
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>HI © 2020</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
@@ -108,6 +109,7 @@ function Footer() {
               target='_blank'
               aria-label='LinkedIn'
             >
+              
               <i class='fab fa-linkedin' />
             </Link>
           </div>

@@ -45,6 +45,10 @@
   border: 1px solid #fff;
 }
 
+.lightbulb {
+  padding: 1vh;
+}
+
 .footer-links {
   width: 100%;
   max-width: 1000px;
