@@ -13,19 +13,19 @@ export default function Projects() {
           <ul className='cards__items'>
             <CardItem
               src='images/img-9.jpg'
-              text='Use our recipe finder to create your next great meal'
+              text='Use my recipe finder to create your next great meal'
               label='Cook'
               path='/recipefinder'
             />
             <CardItem
               src='images/img-1.jpg'
-              text='Use our website to find your next great travel destination'
+              text='Use my website to find your next great travel destination'
               label='Travel'
               path='/travelbuddy'
             />
            <CardItem
               src='images/img-8.jpg'
-              text='Use our book finder to find your next great read'
+              text='Use my book finder to find your next great read'
               label='Read'
               path='/bookfinder'
             />
