@@ -6,10 +6,10 @@ export default function Projects() {
   return ( 
   <>
     <div className='projects'>
-  <div className='projects_div'>
+ 
     <h1 >Projects</h1>
-    <i class="far fa-arrow-alt-circle-down"></i>
-    </div>
+    
+    
    </div>
       <div className="cards">
    <div className='cards__container'>

@@ -57,7 +57,7 @@ You can find the hosted GraphQL API used by the React app <a href='https://trave
              
             />
            <CardItem
-              src='images/img-19.jpg'
+              src='images/img-20.jpg'
               text='View the Northcoders graduate showcase for Travel Buddy'
               label='Video'
               path='/projectvideo'

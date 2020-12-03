@@ -7,17 +7,13 @@ export default function ProjectVideo() {
   <>
      <div
       className="video"
-      style={{
-        position: "relative",
-        paddingBottom: "56.25%" /* 16:9 */,
-        paddingTop: '12vh',
-       paddingLeft: '20%',
-       
-      }}
+     
     >
       <ReactPlayer 
-        url='https://www.youtube.com/embed/pj0Ls82cqFY&t=80s'
-   
+        url='https://www.youtube.com/watch?v=pj0Ls82cqFY'
+   className='react_player'
+    width='100%'
+          height='100%'
       />
     </div>
 
