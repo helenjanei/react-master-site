@@ -24,7 +24,7 @@
   background-repeat: no-repeat;
   color: #EFEBD8;
   font-size: 90px;
-   height: 90vh;
+  height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
@@ -36,7 +36,10 @@
   background-size: fill;
   background-repeat: no-repeat;
   color:#EFEBD8;
-  font-size: 90px;
+  font-size: 3rem;
+align-items: center;
+justify-content: center;
+
 }
 
 .projects_div {

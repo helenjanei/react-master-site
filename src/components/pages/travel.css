@@ -39,6 +39,7 @@ height: 50vh;
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
+  font-size: 3rem;
 }
 
 .travel_hero_container_BE {
@@ -89,7 +90,7 @@ p {
 }
 
 .travel_buddy_text {
-  
+  color: #2b2d2f;
    font-family: 'PT Sans',
    sans-serif;
   font-weight: normal;
@@ -98,9 +99,7 @@ p {
   line-height: 1.1em;
   margin:0px;
   text-align: center;
-  
-height: 100vh;
-width: 100%;
+  width: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -110,11 +109,16 @@ object-fit: contain;
 }
 
 .techstack_ul {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .techstack_list {
  padding: 0.1vh;
-      background-image: 'public/images/pin.svg';
+
+  color: #2b2d2f;
+
 }
 
 @media screen and (max-width: 960px) {

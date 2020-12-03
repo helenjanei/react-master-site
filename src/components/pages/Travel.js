@@ -16,11 +16,11 @@ export default function Travel() {
    <p></p>
 
 <p>
-This was part of a two-week, four-person final project at the <a href='https://northcoders.com/'target="_blank">Northcoders</a> bootcamp. 
+This project was part of a two-week, four-person final project at the <a href='https://northcoders.com/'target="_blank">Northcoders</a> bootcamp. 
 </p>
 <p>
   
-It uses the following technologies:
+Travel Buddy uses the following technologies:
 </p>
 <p></p>
 <ul className='techstack_ul'>
@@ -43,22 +43,22 @@ You can find the hosted GraphQL API used by the React app <a href='https://trave
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='View the back end code on Git'
+              src='images/img-18.jpg'
+              text='View the back end code'
               label='Back end'
               path='/travelbuddybackend'
              
             />
             <CardItem
               src='images/img-4.jpg'
-              text='View the front end code on Git'
+              text='View the front end code'
               label='Front end'
               path='/travelbuddyfrontend'
              
             />
            <CardItem
-              src='images/img-8.jpg'
-              text='View the graduate showcase for Travel Buddy'
+              src='images/img-19.jpg'
+              text='View the Northcoders graduate showcase for Travel Buddy'
               label='Video'
               path='/projectvideo'
             />
