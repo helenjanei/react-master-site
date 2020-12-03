@@ -2,6 +2,9 @@ import React from 'react';
 import {FormGroup, FormControl,InputGroup, Glyphicon} from 'react-bootstrap';
 import Gallery from './Gallery.js';
 import './book.css'
+import '../../App.css'
+
+
 export default class Book extends React.Component {
   constructor(props){
     super(props);
@@ -42,6 +45,7 @@ export default class Book extends React.Component {
   }
   render() {
     return (
+      <div className='read'>
      <div className="Global">
      <h2>Book Explorer!</h2>
      <FormGroup>
@@ -56,6 +60,7 @@ export default class Book extends React.Component {
      
      </FormGroup>
      <Gallery items={this.state.items} />
+     </div>
      </div>
       );
   }

@@ -30,15 +30,15 @@ export default function About() {
         </div>
       </li>
             <CardItem
-              src='images/img-9.jpg'
-              text='Use our book finder to find your next great read'
-              label='Creativity'
-              path='/bookfinder'
+              src='images/img-14.jpg'
+              text='Explore my creative portfolio'
+              label='Creative'
+              path='/creative'
             /> <CardItem
-              src='images/img-9.jpg'
-              text='Use our book finder to find your next great read'
+              src='images/img-15.jpg'
+              text='How looking to the past can shape the future'
               label='History'
-              path='/bookfinder'
+              path='/history'
             />
           </ul>
         </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState} from "react";
 import "./recipe.css";
 import Recipecard from './recipie-card'
+import '../../App.css'
 
 
 const Recipe = () => { 
@@ -34,7 +35,7 @@ setSearch('');
 }
 
 return (
-<div className="recipe-background">
+<div className="cook">
 <form onSubmit={getSearch}className="search-form"
 >
 <input type="text" placeholder="type the name of an ingredient or recipe here"className="search-bar" value={search}   onChange={(e) => updateSearch(e)} />
