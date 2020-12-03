@@ -35,23 +35,30 @@ setSearch('');
 }
 
 return (
+  <>
 <div className="cook">
 <form onSubmit={getSearch}className="search-form"
 >
 <input type="text" placeholder="type the name of an ingredient or recipe here"className="search-bar" value={search}   onChange={(e) => updateSearch(e)} />
 <button className="search-button">Search</button>
 </form>
-<div className="recipes">
+  </div>
+  <div className='cards__container'>
+        <div className='cards__wrapper'>
+  <ul className='cards__items'>
+
 {recipes.map((recipe, index) => (
-  <Recipecard title={recipe.recipe.label} time={recipe.recipe.totalTime}
+  <Recipecard className='cards__item' title={recipe.recipe.label} time={recipe.recipe.totalTime}
   image={recipe.recipe.image}  link={recipe.recipe.url}
   ingredients={recipe.recipe.ingredients}
   calories={recipe.recipe.totalNutrients}
   key={index}
   />
 ))}
-</div>
-</div>
+   </ul>
+        </div>
+      </div>
+</>
 );
 }
 

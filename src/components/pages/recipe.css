@@ -8,20 +8,12 @@
   z-index: 2;
 }
 
-.recipe-card {
-  border-radius: 10px;
-  box-shadow: 0px 5px 20px rgb(87, 84, 84);
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background: white;
-  align-items: center;
-  min-width: 40%;
+.recipe_text {
+  color: #2B2D2F;
 }
 
 .search-form {
-  min-height: 20vh;
+  min-height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,18 +28,11 @@
 }
 
 .search-button {
-  background: #fa709a;
+  background: #2B2D2F;
   border: none;
   padding: 10px 20px;
   color: white;
 }
 
-.recipes {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
 
-.recipe-background {
-  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-}
+
