@@ -32,6 +32,13 @@ export default function Projects() {
               text='Use my book finder to find your next great read'
               label='Read'
               path='/bookfinder'
+            /></ul>
+            <ul className='cards__items'>
+               <CardItem
+              src='images/img-21.jpg'
+              text='Use my weather app to get the latest forecast'
+              label='Weather'
+              path='/weather'
             />
           </ul>
         </div>

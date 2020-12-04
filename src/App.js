@@ -14,7 +14,7 @@ import Contact from './components/pages/Contact';
 import Travel from './components/pages/Travel';
 import TravelbuddyFE from './components/pages/TravelbuddyFE';
 import TravelbuddyBE from './components/pages/TravelbuddyBE';
-
+import Weather from './components/pages/Weather'
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
            <Route path='/travelbuddy' component={Travel} /> 
            <Route path='/travelbuddyfrontend' component={TravelbuddyFE} /> 
            <Route path='/travelbuddybackend' component={TravelbuddyBE} />       
-        
+         <Route path='/weather' component={Weather} />       
         </Switch>
         <Footer />
       </Router>
