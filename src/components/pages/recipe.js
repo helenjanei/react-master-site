@@ -50,6 +50,7 @@ return (
 {recipes.map((recipe, index) => (
   <Recipecard className='cards__item' title={recipe.recipe.label} time={recipe.recipe.totalTime}
   image={recipe.recipe.image}  link={recipe.recipe.url}
+  target='_blank'
   ingredients={recipe.recipe.ingredients}
   calories={recipe.recipe.totalNutrients}
   key={index}
