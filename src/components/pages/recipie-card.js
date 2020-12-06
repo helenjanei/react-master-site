@@ -15,7 +15,7 @@ const Recipecard = ({title, time, image, link, ingredients, calories}) => {
           <li key={index}>{ingredient.text}</li>
           ))}
       </ul>
-      <p className="time" className='recipe_text'>Total Time: {time} mins</p>
+      <p className="time recipe_text" >Total Time: {time} mins</p>
      </a>
           </li>
    

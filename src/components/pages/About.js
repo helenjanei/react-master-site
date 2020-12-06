@@ -19,7 +19,7 @@ export default function About() {
           <figure className='cards__item__pic-wrap' data-category='CV'>
             <img
               className='cards__item__img'
-              alt='Travel Image'
+              alt='Travel'
               src='images/img-7.jpg'
             />
           </figure>

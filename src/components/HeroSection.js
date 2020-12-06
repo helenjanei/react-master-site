@@ -11,7 +11,7 @@ function HeroSection() {
       <h1>Welcome</h1>
       <p></p>
       <div className='hero-btns'>
-        <a href='https://github.com/helenjanei/react-master-site' target='_blank' >
+        <a href='https://github.com/helenjanei/react-master-site'  >
         <Button
           className='btns'
           buttonStyle='btn--outline'
