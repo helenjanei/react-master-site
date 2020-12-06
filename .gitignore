@@ -1,6 +1,7 @@
 node_modules
 public/videos
 public/images
+public/audio
 .env
 .firebase/hosting.YnVpbGQ.cache
 build/

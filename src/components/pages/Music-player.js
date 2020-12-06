@@ -6,8 +6,8 @@ function Musicplayer() {
   const [songs] = useState([
     {
       title: "The Children Who Lived In a Barn",
-      artist: "Written by, Narrated by Helen Ingham",
-      img_src: "./images/img-21.jpg",
+      artist: "Written by Eleanor Graham, Narrated by Helen Ingham",
+      img_src: "./images/img-24.jpg",
       src: "/audio/Chapter One.mp3"
     },
     {
@@ -50,6 +50,7 @@ function Musicplayer() {
         setCurrentSongIndex={setCurrentSongIndex} 
         nextSongIndex={nextSongIndex} 
         songs={songs}
+        className='player'
       />
     </div>
   );
