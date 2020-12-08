@@ -16,6 +16,8 @@ import TravelbuddyFE from './components/pages/TravelbuddyFE';
 import TravelbuddyBE from './components/pages/TravelbuddyBE';
 import Weather from './components/pages/Weather'
 import Musicplayer from './components/pages/Music-player'
+import Gutenberg from './components/pages/ProjectGut'
+import CreativeWorks from './components/pages/CreativeWorks'
 
 function App() {
   return (
@@ -35,7 +37,11 @@ function App() {
            <Route path='/travelbuddyfrontend' component={TravelbuddyFE} /> 
            <Route path='/travelbuddybackend' component={TravelbuddyBE} />       
          <Route path='/weather' component={Weather} />         
-         <Route path='/musicplayer' component={Musicplayer} />       
+         <Route path='/musicplayer' component={Musicplayer} />
+             <Route path='/gutenberg' component={Gutenberg} />    
+ <Route path='/creative' component={CreativeWorks} />    
+
+
         </Switch>
         <Footer />
       </Router>

@@ -13,7 +13,7 @@ function Musicplayer() {
     {
       title: "On Marriage",
       artist: "Fred Duprez",
-      img_src: "./images/img-12.jpg",
+      img_src: "./images/cold-bg.jpg",
       src: "./audio/FredDuprezOnMarriage.mp3"
     },
     {

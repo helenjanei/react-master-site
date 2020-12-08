@@ -39,6 +39,12 @@ export default function Projects() {
               text='Use my weather app to get the latest forecast'
               label='Weather'
               path='/weather'
+            /> 
+            <CardItem
+              src='images/img-24.jpg'
+              text='Unwind listening to an audio book with my audio player'
+              label='Listen'
+              path='/musicplayer'
             />
           </ul>
         </div>

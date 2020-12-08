@@ -32,13 +32,13 @@ export default function About() {
             <CardItem
               src='images/img-14.jpg'
               text='Explore my creative portfolio'
-              label='Creative'
+              label='Creativity'
               path='/creative'
             /> <CardItem
-              src='images/img-15.jpg'
-              text='How looking to the past can shape the future'
-              label='History'
-              path='/history'
+              src='images/img-25.jpg'
+              text='My creative solutions to problems of all types'
+              label='Problem Solving'
+              path='/problemsolving'
             />
           </ul>
         </div>
