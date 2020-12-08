@@ -18,6 +18,8 @@ import Weather from './components/pages/Weather'
 import Musicplayer from './components/pages/Music-player'
 import Gutenberg from './components/pages/ProjectGut'
 import CreativeWorks from './components/pages/CreativeWorks'
+import ProblemSolving from './components/pages/ProblemSolving'
+
 
 function App() {
   return (
@@ -40,7 +42,7 @@ function App() {
          <Route path='/musicplayer' component={Musicplayer} />
              <Route path='/gutenberg' component={Gutenberg} />    
  <Route path='/creative' component={CreativeWorks} />    
-
+ <Route path='/problemsolving' component={ProblemSolving} /> 
 
         </Switch>
         <Footer />

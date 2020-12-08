@@ -1,3 +1,20 @@
+.problem_card {
+  border: 1px solid #eeeeee;
+    border-radius: 3px;
+    padding: 15px;
+    width: 250px;
+}
+
+.problem_img {
+  height: 200px;
+    width: 250px
+}
+
+.problem_text {
+
+  color: black;
+}
+
 .cards {
   padding: 4rem;
   background: #EFEBD8;
@@ -7,7 +24,7 @@ h1 {
   text-align: center;
 }
 
-.cards__container  {
+.cards__container {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -26,17 +43,14 @@ h1 {
 }
 
 .cards__item {
-  display: flex;
-  flex: 1;
+
   margin: 0 1rem;
   border-radius: 10px;
   color: #2B2D2F;
 }
 
-.cards__item__link {
-  display: flex;
-  flex-flow: column;
-  width: 100%;
+.cards__item__link  {
+ 
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
@@ -94,10 +108,16 @@ h1 {
   padding: 20px 30px 30px;
 }
 
+.explanation_text {
+   color: #252e48;
+   font-size: 6px;
+   line-height: 8px;
+}
+
 .cards__item__text {
   color: #252e48;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 8px;
+  line-height: 8px;
 }
 
 @media only screen and (min-width: 1200px) {
