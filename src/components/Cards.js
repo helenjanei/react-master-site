@@ -12,7 +12,7 @@ function Cards() {
             <CardItem
               src='images/img-9.jpg'
               text='Use my recipe finder to create your next great meal'
-              label='Cook'
+              label='Cook' 
               path='/cook'
             />
             
@@ -32,17 +32,20 @@ function Cards() {
               path='/bookfinder'
             />
             <CardItem
-              src='images/img-7.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
+              src='images/img-21.jpg'
+              text='Use my weather app to get the latest forecast'
+              label='Weather'
+              path='/weather'
+            /> 
             <CardItem
-              src='images/img-13.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Explore'
-              path='/sign-up'
+              src='images/img-24.jpg'
+              text='Unwind listening to an audio book with my audio player'
+              label='Listen'
+              path='/musicplayer'
             />
+          
+           
+           
           </ul>
         </div>
       </div>
