@@ -22,6 +22,7 @@
 
 h1 {
   text-align: center;
+
 }
 
 .cards__container {
@@ -116,7 +117,7 @@ h1 {
 
 .cards__item__text {
   color: #252e48;
-  font-size: 8px;
+  font-size: 10px;
   line-height: 8px;
 }
 
