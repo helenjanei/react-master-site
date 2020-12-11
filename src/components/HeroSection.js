@@ -8,7 +8,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/videos/video-5.mp4' autoPlay loop muted />
-      <h1>Welcome</h1>
+      <h1 className='hero-container-h1'>Welcome</h1>
       <p></p>
       <div className='hero-btns'>
         <a href='https://github.com/helenjanei/react-master-site'   target="_blank" >

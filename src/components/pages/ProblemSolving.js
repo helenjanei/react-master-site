@@ -27,7 +27,7 @@ constructor(props) {
   
     <div className='problem_solving'>
       
-       <h1> Problem Solving</h1>
+       <h1 className='problem_solving_h1'> Problem Solving</h1>
     </div>
 
     <div className="cards">
