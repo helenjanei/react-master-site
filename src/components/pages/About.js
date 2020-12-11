@@ -35,7 +35,7 @@ export default function About() {
               label='Creativity'
               path='/creative'
             /> <CardItem
-              src='images/img-25.jpg'
+              src='images/img-7.jpg'
               text='See examples of my problem solving'
               label='Problem Solving'
               path='/problemsolving'
