@@ -4,6 +4,7 @@ import ProblemCardItem from './ProblemCardItem'
 import '../Button.css'
 import './problem.css'
 import '../Cards.css'
+import '../../App.css'
 
 class ProblemSolving extends React.Component  {
 
@@ -27,7 +28,7 @@ constructor(props) {
   
     <div className='problem_solving'>
       
-       <h1 className='problem_solving_h1'> Problem Solving</h1>
+       <h1 className='problem_solving'> Problem Solving</h1>
     </div>
 
     <div className="cards">
@@ -38,12 +39,12 @@ constructor(props) {
             <ReactCardFlip isFlipped={this.state.isFlipped}flipSpeedBackToFront={2}
               flipSpeedFrontToBack={2} >
               <div   >
-                <button className='btn btn--primary' onClick={this.handleClick}>Click here for more</button>
+                <button className='btn btn--primary btn--medium' onClick={this.handleClick}>Click here to flip for more information</button>
                  <ProblemCardItem src='images/img-15.jpg' text='How to raise the English GCSE attainment of disengaged boys?'
                 label='Achieve' />
               </div>
               <div>
-                <button className='btn  btn--primary'  onClick={this.handleClick}>Click here for more</button>
+                <button className='btn  btn--primary btn--medium '  onClick={this.handleClick}>Click here for more</button>
               <div className='cards__item cards__item__link'>
                 <h4 className='cards__item__text__2'>How to raise the English GCSE attainment of disengaged male learners?</h4>
            
