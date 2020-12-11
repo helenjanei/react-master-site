@@ -1,3 +1,8 @@
+.creative_works_text {
+  font-size: 2em;
+  border-radius: 10px;
+}
+
 .creative_works {
   padding: 4vh;
 }
