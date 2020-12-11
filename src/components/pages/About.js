@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import CardItem from '../CardItem'
-import Pdf from '../../documents/helen_resume_1.0.pdf'
+import Pdf from '../../documents/helen_resume_2.0.pdf'
 import '../Cards.css'
 
 export default function About() {
@@ -31,12 +31,12 @@ export default function About() {
       </li>
             <CardItem
               src='images/img-14.jpg'
-              text='Explore my creative portfolio'
+              text='Explore my creative work'
               label='Creativity'
               path='/creative'
             /> <CardItem
               src='images/img-25.jpg'
-              text='My creative solutions to problems of all types'
+              text='See examples of my problem solving'
               label='Problem Solving'
               path='/problemsolving'
             />
