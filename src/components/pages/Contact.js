@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Axios, db } from '../../firebase/firebaseConfig'
 import './contact.css'
+import '../../App.css'
 
 const Contact = () => {
   const [formData, setFormData] = useState({})
@@ -39,7 +40,10 @@ const Contact = () => {
   }
 
   return (
+    <>
+    <h3>#Bug fix required. See ReadME on Github.</h3>
     <div className='contact_body'>
+      
       <form className='contact_form' onSubmit={handleSubmit}>
         <input className='contact_input'
           type="text"
@@ -73,7 +77,7 @@ const Contact = () => {
         >
         </a>
       </div>
-    
+    </>
   )
 }
 

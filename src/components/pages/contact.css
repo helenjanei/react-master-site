@@ -1,4 +1,8 @@
-
+h3 { 
+  color:black;
+  font-size: 18px;
+  padding: 1em;
+}
 .contact_body {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +10,7 @@
   font-family: 'PT Sans', sans-serif;
   display: table;
   margin: 40px auto;
-  color: #EFEBD8;
+
   font: 30px Helvetica;
   letter-spacing: 2px;
   text-transform: uppercase;
