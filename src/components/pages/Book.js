@@ -50,7 +50,7 @@ export default class Book extends React.Component {
      <h2>Book Explorer!</h2>
      <FormGroup>
      <InputGroup>
-     <FormControl type="text" placeholder="Search for a book" onChange={this.handleChange}
+     <FormControl type="text" placeholder="Search for a book, author or topic" onChange={this.handleChange}
      onKeyPress={this.handleKeyPress}/>
      <InputGroup.Addon onClick={this.search}>
      <Glyphicon glyph="search"></Glyphicon>
