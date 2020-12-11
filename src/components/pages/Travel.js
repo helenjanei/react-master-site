@@ -12,17 +12,17 @@ export default function Travel() {
   
   <div className="travel_buddy_text">
 
-    <p>Welcome to Travel Buddy, a React app where users can explore the hidden gems of travel, submitted by fellow travellers.</p>
-   <p></p>
+    <p className="travel_buddy_text" >Welcome to Travel Buddy, a React app where users can explore the hidden gems of travel, submitted by fellow travellers.</p>
 
-<p>
+
+<p  className="travel_buddy_text">
 This project was part of a two-week, four-person final project at the <a href='https://northcoders.com/'target="_blank">Northcoders</a> bootcamp. 
 </p>
-<p>
+<p  className="travel_buddy_text"  >
   
 Travel Buddy uses the following technologies:
 </p>
-<p></p>
+
 <ul className='techstack_ul'>
 <li className='techstack_list'>React</li>
 <li className='techstack_list'>Leaflet</li>
@@ -31,7 +31,7 @@ Travel Buddy uses the following technologies:
 <li className='techstack_list'>Styled Components</li>
 <li className='techstack_list'> Axios</li>
 </ul>
-    <p>
+    <p className="travel_buddy_text" >
 You can find the hosted GraphQL API used by the React app <a href='https://travel-buddy-2020.herokuapp.com/graphql'target="_blank">here</a>
 </p>
     </div>
