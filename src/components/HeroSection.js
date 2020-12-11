@@ -11,13 +11,12 @@ function HeroSection() {
       <h1>Welcome</h1>
       <p></p>
       <div className='hero-btns'>
-        <a href='https://github.com/helenjanei/react-master-site'  >
+        <a href='https://github.com/helenjanei/react-master-site'   target="_blank" >
         <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
-          href='https://github.com/helenjanei/react-master-site'
-           target="_blank"
+         
         >
           SEE THE CODE
         </Button>
